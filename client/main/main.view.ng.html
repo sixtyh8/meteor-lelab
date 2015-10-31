@@ -15,7 +15,7 @@
       <table class="table table-striped" id="credits-table">
         <thead>
           <tr>
-            <th class="credit-id">ID</th>
+            <th class="credit-id">Visibility</th>
             <th class="cover-th">Cover</th>
             <th class="album-th">Album/Artist</th>
             <th class="genre-th">Genre</th>
@@ -26,29 +26,28 @@
           </tr>
         </thead>
         <tbody>
-            <tr dir-paginate="credit in credits | itemsPerPage: perPage" total-items="creditsCount.count" current-page='page'>
+          <tr dir-paginate="credit in credits | itemsPerPage: perPage" total-items="creditsCount.count" current-page='page'>
             <td class="credit-id">
               <div ng-show="credit.homepage_flag != 1" class="homepage-off-message">
                   <span class="glyphicon glyphicon-eye-close"></span>
               </div>
-              <span ng-bind="credit.id"></span>
             </td>
             <td>
-              <img ng-src="{{ $root.cdnUrl }}/images/credits/{{ credit.imgName[0].small_name }}" height="80" width="80" />
+              <img ng-src="images/credits/{{ credit.image.small_name}}" height="80" width="80" />
             </td>
             <td><span ng-bind="credit.album"></span><br /><span ng-bind="credit.artist"></span></td>
-            <td ng-bind="credit.genreName[0].name"></td>
+            <td ng-bind="credit.genre"></td>
             <td ng-bind="credit.year"></td>
-            <td>{{ credit.engi[0].name }} <span ng-if="credit.extra_credit"><br />Extra Credit: {{ credit.extra_credit_engineer_name }}</span></td>
+            <td>{{ credit.engineer }} <span ng-if="credit.extra_credit"><br />Extra Credit: {{ credit.extra_credit_engineer_name }}</span></td>
             <td>{{ credit.credit }} <span ng-if="credit.extra_credit"><br />Extra Credit: {{ credit.extra_credit }}</span></td>
             <td>
               <a href="#" ui-sref="credits.edit({ creditId: credit.id })" role="button" class="edit-credit btn btn-default btn-sm btn-block"><span class="glyphicon glyphicon-edit"></span> Edit</a>
               <button class="btn btn-danger btn-sm btn-block" ng-click="deleteCredit($index)"><span class="glyphicon glyphicon-trash"></span> Delete</button>
             </td>
-            </tr>
+          </tr>
         </tbody>
       </table>
-      
+
       <dir-pagination-controls on-page-change="pageChanged(newPageNumber)" class="col-md-12"></dir-pagination-controls>
     </div>
   </div>
