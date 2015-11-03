@@ -1,0 +1,13 @@
+{
+	"equipment": "Équipement",
+	"monitor": "Moniteur",
+	"furniture": "Meuble",
+	"transport": "Transport",
+	"analog_processor": "Processeur analogue",
+	"room": "Room",
+	"digital_processor": "Processeur numérique",
+	"power": "Alimentation",
+	"converters": "Convertisseurs",
+	"master_clock": "Horloge Maîtresse",
+	"daw": "DAW"
+}

@@ -11,10 +11,11 @@
     "tests"
   ],
   "dependencies": {
+    "angular-localization": "~1.2.1"
   },
   "overrides": {
     "angular": {
-      "main": [] 
+      "main": []
     }
   }
 }

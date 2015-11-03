@@ -5,9 +5,33 @@
     </div>
     <div collapse="!isCollapsed" class="navbar-main navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/about">About</a></li>
         <li>
-          <blaze-template name="loginButtons"></blaze-template>
+          <a href="/" i18n="menu.home"></a>
+        </li>
+        <li>
+          <a href="/studio" i18n="menu.studio"></a>
+        </li>
+        <li>
+          <a href="/engineers" i18n="menu.engineers"></a>
+        </li>
+        <li>
+          <a href="/credits" i18n="menu.credits"></a>
+        </li>
+        <li>
+          <a href="/mastering" i18n="menu.mastering"></a>
+        </li>
+        <li>
+          <a href="/contact" i18n="menu.contact"></a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span i18n="menu.language"></span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li data-ng-repeat="lang in supportedLang">
+              <a href="" ng-click="setLocale(lang)">
+                <span>{{ localeData[lang].langDisplayText }}</span>
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
