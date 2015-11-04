@@ -1,3 +1,12 @@
 {
-	"services_title": "Nos services"
+	"services_title": "Nos services",
+	"services_list": "<li>Mastering CD / Stems Mastering</li><li>&raquo;Radio Single&laquo; Mastering</li><li>&raquo;Mastered for iTunes (MFiT)&laquo;</li><li>Archivage ou Remastering de catalogue complet</li><li>Restauration audio:  &Eacute;dition / &quot;Dithering&quot; / &quot;Downsampling&quot; - &quot;Upsampling&quot;</li><li>Back-up ou transfert:  DAT / Tape / CD / Vinyles</li><li>Num&eacute;risation: Transfert num&eacute;rique en haute r&eacute;solution</li>  <li>Analogue &agrave; num&eacute;rique ou num&eacute;rique &agrave; analogue</li><li>Contr&ocirc;le de qualit&eacute; complet</li><li>Cuisson de tape: Un  processus minutieux qui consiste &agrave; chauffer &agrave; basse temp&eacute;rature et pendant une  longue p&eacute;riode de temps des bandes hydrolyses afin d&rsquo;&eacute;liminer l&rsquo;humidit&eacute;  accumul&eacute;e, nous permettant ainsi de jouer les tapes pour une certaine p&eacute;riode  de temps et d&rsquo;effectuer un &laquo;&nbsp;remastering&nbsp;&raquo;. </li>",
+	"format_title": "Format disponible pour la duplication",
+	"format_list": "<li>Disque Audio (Redbook Master) <li>DDP Master (Yellowbook Master)</li><li>Rapport d'erreur BLER / PQ Listing</li>",
+	"format_note": "* Nous vous livrons &eacute;galement les fichiers avec notre service de transfert simple pour approbation.",
+	"mastering_title": "Formats de mastering accept&eacute;s",
+	"mastering_list": "<li>CD de donn&eacute;es ou DVD: 24-bit de r&eacute;solution donne un r&eacute;sultat de qualit&eacute; sup&eacute;rieur.</li><li>DAT - (Digital Audio Tape)</li><li>Tape &frac12;&rsquo; or &frac14;&rsquo;</li><li>Cl&eacute; USB ou disque dur externe</li><li>Disque audio</li><li>Transfert Internet</li>",
+	"mastering_note1": "* Lorsque vous envoyez vos fichiers au studio via Internet, il est important de faire un dossier avec tous vos fichiers et de le compresser avec un logiciel (Winzip ou Winrar) afin de pr&eacute;server l'int&eacute;grit&eacute; des donn&eacute;es.",
+	"mastering_note2": "Une fois le Mastering termin&eacute;",
+	"mastering_note3": "Nous vous fournissons un disque audio de r&eacute;f&eacute;rence &agrave; partir duquel vous pouvez approuver votre projet avant de l'envoyer &agrave; l'usine de pressage. Aussi, nous pouvons livrer tous les fichiers wave via Internet pour l'approbation de votre projet."
 }
