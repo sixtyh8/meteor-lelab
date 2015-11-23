@@ -6,6 +6,8 @@ angular.module('meteorLelabApp')
   $scope.perPage = 25
   $scope.sort = {name_sort : 1};
   $scope.orderProperty = '1'
+
+  console.log('CreditsListCtrl');
   
   $scope.credits = $scope.$meteorCollection(function() {
     return Credits.find({}, {sort:$scope.getReactively('sort')});

@@ -1,0 +1,12 @@
+{
+	"booking_title": "Booking",
+	"booking_intro": "Please fill up the form below and we'll get back to you as soon as possible.",
+	"booking_name_label": "Your name",
+	"booking_phone_label": "Phone num",
+	"booking_email_label": "Email",
+	"booking_message_label": "Message",
+	"booking_send_label": "Send",
+	"booking_file_transfer": "File Upload",
+	"booking_file_transfer_intro": "You can securely upload your files here:",
+	"booking_transfer_button": "Upload"
+}

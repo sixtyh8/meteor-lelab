@@ -28,3 +28,4 @@ tmeasday:publish-counts
 angularutils:pagination@=0.9.0
 accounts-password
 accounts-ui
+http

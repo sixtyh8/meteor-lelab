@@ -1,0 +1,12 @@
+{
+	"booking_title": "Réservation",
+	"booking_intro": "Veuillez remplir le formulaire ci-bas et nous vous répondrons dans les plus brefs délais.",
+	"booking_name_label": "Votre nom",
+	"booking_phone_label": "Téléphone",
+	"booking_email_label": "Courriel",
+	"booking_message_label": "Message",
+	"booking_send_label": "Envoyer",
+	"booking_file_transfer": "Transfert de Fichier",
+	"booking_file_transfer_intro": "Vous pouvez nous transférer vos fichiers de façon sécuritaire:",
+	"booking_transfer_button": "Transférer"
+}

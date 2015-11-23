@@ -1,1 +1,80 @@
-<p>This is the {{ viewName }} view</p>
+<div style="overflow:auto;">
+<div class="left-box">
+	<div class="left-box-top"></div>
+    <div class="left-box-content">
+    	<h2>Contact</h2>
+		
+        
+		<div class="contact-box" id="contact-montreal">
+            <div class="contact-info">
+            	<div class="google-map">
+            		<iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=1207+rue+St-Andr%C3%A9,++Montr%C3%A9al,+QC+H2L+3S8&amp;aq=&amp;sll=49.891235,-97.15369&amp;sspn=31.042996,93.076172&amp;ie=UTF8&amp;hq=&amp;hnear=1207+Rue+Saint-Andr%C3%A9,+Montr%C3%A9al,+Qu%C3%A9bec+H2L+4Z9&amp;ll=45.515422,-73.555922&amp;spn=0.016419,0.045447&amp;z=15&amp;output=embed"></iframe>
+                </div>
+            	<h4>Le Lab Mastering</h4>
+                <p>1207 rue St-Andr&eacute;,</p>
+				<p>Montr&eacute;al, QC H2L 3S8</p>
+				<p>&nbsp;</p>
+                <p class="contact-phone">(514) 312-2122</p>
+                <p><a href="mailto:info@lelabmastering.com" class="blue">info@lelabmastering.com</a></p>
+            </div>
+        </div>
+        <div class="contact-box" id="contact-vegas">
+            <div class="contact-info">
+            	<div class="google-map">
+            		<iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=3570+Las+Vegas+Boulevard+South,++Las+Vegas&amp;aq=&amp;sll=36.119562,-115.173347&amp;sspn=0.010261,0.022724&amp;ie=UTF8&amp;hq=&amp;hnear=3570+Las+Vegas+Blvd+S,+Las+Vegas,+Nevada+89109,+%C3%89tats-Unis&amp;z=14&amp;ll=36.119562,-115.173347&amp;output=embed"></iframe>
+                </div>      
+            	<h4>Le Lab Mastering</h4>
+                <p>3570 Las Vegas Boulevard South,</p>
+				<p>Las Vegas, NV 89109</p>
+				<p>&nbsp;</p>
+                <p class="contact-phone">(702) 562-2356</p>
+                <p><a href="mailto:info@lelabmastering.com" class="blue">info@lelabmastering.com</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="left-box-bottom"></div>
+</div>
+
+<div id="right-col">
+    <div class="right-box">
+        <div class="right-box-top"></div>
+        <div class="right-box-content">
+            
+        	<h3 i18n="contact.booking_title"></h3>
+            <p i18n="contact.booking_intro"></p>
+            <form id="booking">
+            	<p>
+                	<label for="name" i18n="contact.booking_name_label"></label>
+                	<input class="required" id="booking-name" type="text" name="name" maxlength="50" tabindex="1" />
+                </p>
+                <p>
+            		<label for="phone" i18n="contact.booking_phone_label"></label>
+                    <input class="required phone-field" id="booking-phone3" type="text" name="phone" maxlength="4" style="width:55px" tabindex="4" /><span class="phone-field"> - </span>
+                    <input class="required phone-field" id="booking-phone2" type="text" name="phone" maxlength="3" tabindex="3" /><span class="phone-field"> - </span>
+                	<input class="required phone-field" id="booking-phone1" type="text" name="phone" maxlength="3" tabindex="2" />
+                    
+                    
+                </p>
+                <p>
+            		<label for="email" i18n="contact.booking_email_label"></label>
+                	<input class="required" id="booking-email" type="text" name="email" maxlength="50" tabindex="5" />
+                </p>
+                <p class="message">
+                	<label for="message" i18n="contact.booking_message_label"></label>
+                    <textarea class="required" id="booking-message" name="message" tabindex="6"></textarea>
+                </p>
+                <p>
+                	<button type="submit" onclick="validateBeforeSend();" class="submit" i18n="contact.booking_send_label" tabindex="7"></button>
+                </p>
+            </form>
+            <p id="booking-alert"></p>
+
+            <h3 i18n="contact.booking_file_transfer"></h3>
+            <p i18n="contact.booking_file_transfer_intro"></p>
+            <a id="webcargo" href="https://www.webcargo.net/request/index/id/4330987/dp/06C23dgxEpz7UXqRBH" target="_blank" i18n="contact.booking_transfer_button"></a>
+            
+        </div>
+        <div class="right-box-bottom"></div>
+    </div>
+</div>    
+</div>
